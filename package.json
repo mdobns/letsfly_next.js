@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run copy-files",
+    "copy-files": "node -e \"require('fs').copyFileSync('_headers', 'out/_headers'); require('fs').copyFileSync('_redirects', 'out/_redirects')\"",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "cp _headers out/_headers && cp _redirects out/_redirects"
+    "lint": "next lint"
   },
   "engines": {
     "node": ">=18.0.0",
