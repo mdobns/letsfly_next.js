@@ -9,7 +9,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section
-        className="relative text-white text-center flex items-center justify-center mx-4 sm:mx-auto max-w-5xl my-8 rounded-2xl shadow-2xl overflow-hidden"
+        className="relative text-white text-center flex items-center justify-center mx-2 sm:mx-4 md:mx-auto max-w-5xl my-8 rounded-2xl shadow-2xl overflow-hidden"
         style={{
           backgroundImage: 'url(/images/hero-bg.jpg)',
           backgroundSize: 'cover',
@@ -18,17 +18,17 @@ export default function Home() {
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-teal-900/90 to-green-900/90"></div>
-        <div className="relative z-10 px-6">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 drop-shadow-lg">
+        <div className="relative z-10 px-4 sm:px-6 w-full">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 drop-shadow-lg">
             Welcome to Lets Fly
           </h1>
-          <p className="text-lg md:text-xl mb-6 drop-shadow-md">
+          <p className="text-base sm:text-lg md:text-xl mb-4 sm:mb-6 drop-shadow-md px-2">
             Your Trusted Partner for Air Tickets & Visa Services
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
             <a
               href="#emi-calculator"
-              className="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition duration-300 shadow-lg inline-block"
+              className="bg-yellow-400 text-gray-900 font-bold py-2.5 sm:py-3 px-6 sm:px-8 rounded-full hover:bg-yellow-300 transition duration-300 shadow-lg inline-block text-sm sm:text-base w-full sm:w-auto"
             >
               EMI Calculator
             </a>
@@ -36,7 +36,7 @@ export default function Home() {
               href="https://invoice.sslcommerz.com/invoice-form?refer=66C6DE545ACEE"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-teal-700 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 shadow-lg inline-block"
+              className="bg-white text-teal-700 font-bold py-2.5 sm:py-3 px-6 sm:px-8 rounded-full hover:bg-gray-100 transition duration-300 shadow-lg inline-block text-sm sm:text-base w-full sm:w-auto"
             >
               💳 Pay with EMI
             </a>
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* Special Omrah Campaign October 2025 */}
-      <section className="bg-gradient-to-br from-green-600 via-teal-600 to-green-700 text-white mx-4 sm:mx-auto max-w-5xl my-8 rounded-2xl shadow-2xl overflow-hidden px-6 py-8 relative">
+      <section className="bg-gradient-to-br from-green-600 via-teal-600 to-green-700 text-white mx-2 sm:mx-4 md:mx-auto max-w-5xl my-8 rounded-2xl shadow-2xl overflow-hidden px-4 sm:px-6 py-6 sm:py-8 relative">
         {/* Decorative Background Pattern */}
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="absolute top-0 right-0 w-64 h-64 bg-white rounded-full -mr-32 -mt-32"></div>
@@ -54,26 +54,26 @@ export default function Home() {
 
         <div className="relative">
           {/* Header */}
-          <div className="text-center mb-8">
-            <div className="inline-block bg-yellow-400 text-green-900 px-6 py-2 rounded-full font-bold text-sm mb-4 shadow-lg animate-pulse">
+          <div className="text-center mb-6 sm:mb-8">
+            <div className="inline-block bg-yellow-400 text-green-900 px-4 sm:px-6 py-1.5 sm:py-2 rounded-full font-bold text-xs sm:text-sm mb-3 sm:mb-4 shadow-lg animate-pulse">
               🔥 স্পেশাল অফার
             </div>
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-3 drop-shadow-lg">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 sm:mb-3 drop-shadow-lg px-2">
               পবিত্র ওমরাহ প্যাকেজ ২০২৫
             </h2>
-            <div className="flex items-center justify-center space-x-2 text-xl">
-              <span className="bg-white/20 px-4 py-1 rounded-full backdrop-blur-sm">🕌 অক্টোবর ২০২৫</span>
-              <span className="bg-white/20 px-4 py-1 rounded-full backdrop-blur-sm">📅 ১৪ দিন</span>
+            <div className="flex items-center justify-center flex-wrap gap-2 text-base sm:text-xl px-2">
+              <span className="bg-white/20 px-3 sm:px-4 py-1 rounded-full backdrop-blur-sm text-sm sm:text-base">🕌 অক্টোবর ২০২৫</span>
+              <span className="bg-white/20 px-3 sm:px-4 py-1 rounded-full backdrop-blur-sm text-sm sm:text-base">📅 ১৪ দিন</span>
             </div>
           </div>
 
           {/* Price Highlight */}
-          <div className="text-center mb-8 bg-white/10 backdrop-blur-md rounded-2xl p-8 border-2 border-white/30">
-            <p className="text-lg mb-2 opacity-90">মাত্র</p>
-            <div className="text-6xl md:text-7xl font-black mb-2 drop-shadow-2xl">
+          <div className="text-center mb-6 sm:mb-8 bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-8 border-2 border-white/30">
+            <p className="text-base sm:text-lg mb-1 sm:mb-2 opacity-90">মাত্র</p>
+            <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-1 sm:mb-2 drop-shadow-2xl break-words">
               ১,৩৫,০০০/-
             </div>
-            <p className="text-2xl font-semibold opacity-95">টাকা</p>
+            <p className="text-xl sm:text-2xl font-semibold opacity-95">টাকা</p>
           </div>
 
           {/* Package Details Grid */}

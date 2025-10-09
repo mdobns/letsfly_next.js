@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
+  
   body {
-    @apply bg-gradient-to-br from-teal-50 via-blue-50 to-green-50 min-h-screen;
+    @apply bg-gradient-to-br from-teal-50 via-blue-50 to-green-50 min-h-screen overflow-x-hidden;
   }
 }
 
