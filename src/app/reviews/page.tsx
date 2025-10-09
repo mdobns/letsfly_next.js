@@ -114,7 +114,7 @@ export default function Reviews() {
       {/* Trust Badges */}
       <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
         <div className="bg-white p-4 rounded-lg shadow">
-          <div className="text-3xl font-bold text-teal-600">500+</div>
+          <div className="text-3xl font-bold text-teal-600">800+</div>
           <div className="text-sm text-gray-600">Happy Customers</div>
         </div>
         <div className="bg-white p-4 rounded-lg shadow">

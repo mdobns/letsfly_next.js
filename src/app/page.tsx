@@ -25,12 +25,22 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-6 drop-shadow-md">
             Your Trusted Partner for Air Tickets & Visa Services
           </p>
-          <a
-            href="#emi-calculator"
-            className="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition duration-300 shadow-lg inline-block"
-          >
-            EMI Facilities
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="#emi-calculator"
+              className="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition duration-300 shadow-lg inline-block"
+            >
+              EMI Calculator
+            </a>
+            <a
+              href="https://invoice.sslcommerz.com/invoice-form?refer=66C6DE545ACEE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-teal-700 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 shadow-lg inline-block"
+            >
+              💳 Pay with EMI
+            </a>
+          </div>
         </div>
       </section>
 
