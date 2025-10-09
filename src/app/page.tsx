@@ -25,12 +25,12 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-6 drop-shadow-md">
             Your Trusted Partner for Air Tickets & Visa Services
           </p>
-          <Link
-            href="/contact"
+          <a
+            href="#emi-calculator"
             className="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-300 transition duration-300 shadow-lg inline-block"
           >
-            Book Now
-          </Link>
+            EMI Facilities
+          </a>
         </div>
       </section>
 

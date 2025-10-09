@@ -7,7 +7,7 @@ interface BankRate {
 }
 
 const directBankRates: BankRate = {
-  mutual: { '3': 0, '6': 6, '9': 8.5, '12': 11, '18': 14, '24': 17, '30': 20, '36': 23 },
+  mutual: { '3': 2, '6': 6, '9': 8.5, '12': 11, '18': 14, '24': 17, '30': 20, '36': 23 },
   ebl: { '3': 1.99, '6': 5.5, '9': 7.5, '12': 10, '18': 13.5, '24': 17.5, '30': 20.5, '36': 23.5 },
   ab: { '3': 3, '6': 6, '9': 8, '12': 11, '18': 14.5, '24': 18.5, '30': 21, '36': 24 },
   pubali: { '3': 2.5, '6': 5, '9': 7.5, '12': 10, '18': 13, '24': 16, '30': 19, '36': 22 },
@@ -68,7 +68,7 @@ export default function EMICalculator() {
   }
 
   return (
-    <section id="emi-section" className="bg-gray-50 rounded-xl mx-4 sm:mx-auto max-w-5xl my-8 shadow-lg px-6 py-8">
+    <section id="emi-calculator" className="bg-gray-50 rounded-xl mx-4 sm:mx-auto max-w-5xl my-8 shadow-lg px-6 py-8">
       <h2 className="text-3xl font-semibold text-center mb-8">EMI Calculators</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         

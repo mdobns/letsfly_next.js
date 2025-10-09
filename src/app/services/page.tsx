@@ -122,22 +122,18 @@ export default function Services() {
       {/* EMI Information */}
       <div className="bg-gradient-to-r from-teal-600 to-green-600 text-white p-8 rounded-xl shadow-2xl text-center">
         <h2 className="text-3xl font-bold mb-4">💳 Flexible EMI Options</h2>
-        <p className="text-lg mb-4">Pay for your travel in easy installments</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-          <div>
-            <p className="text-4xl font-bold">36</p>
-            <p>Months Maximum</p>
+        <p className="text-lg mb-4">Pay for your travel in easy installments with competitive interest rates</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto text-center">
+          <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+            <p className="text-5xl font-bold mb-2">36</p>
+            <p className="text-lg">Months Maximum Tenure</p>
           </div>
-          <div>
-            <p className="text-4xl font-bold">31</p>
-            <p>Partner Banks</p>
-          </div>
-          <div>
-            <p className="text-4xl font-bold">0%*</p>
-            <p>Interest Available</p>
+          <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
+            <p className="text-5xl font-bold mb-2">31</p>
+            <p className="text-lg">Partner Banks Available</p>
           </div>
         </div>
-        <p className="mt-4 text-sm opacity-90">*Conditions apply. Interest rates vary by bank and tenure.</p>
+        <p className="mt-6 text-sm opacity-90">Interest rates vary by bank and tenure. Starting from 1.99% for select banks.</p>
       </div>
 
       {/* Contact CTA */}
