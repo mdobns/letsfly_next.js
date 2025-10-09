@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import EMICalculator from '@/components/EMICalculator'
-import CollapsibleSection from '@/components/CollapsibleSection'
 import BankList from '@/components/BankList'
 import BankDetails from '@/components/BankDetails'
 
