@@ -9,6 +9,7 @@ import Chatbot from '@/components/Chatbot'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://letsfly.com.bd'),
   title: 'Lets Fly - Air Tickets, Visa Processing & Travel Services',
   description: 'Your trusted partner for domestic and international air tickets. We offer the best prices, easy booking, visa support, and EMI facilities with low interest rates.',
   keywords: 'air tickets, visa processing, travel agency, EMI facilities, Hajj, Umrah, Bangladesh, Dinajpur',
