@@ -18,7 +18,7 @@ export default function Header() {
               alt="Lets Fly Logo" 
               width={50} 
               height={50}
-              className="h-12 w-auto"
+              className="h-12 w-auto drop-shadow-lg filter brightness-105 bg-white/10 backdrop-blur-sm rounded-lg p-1 border border-white/20"
             />
           </Link>
 
