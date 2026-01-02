@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
-    apple: '/images/logo.png',
+    apple: '/images/favicon.png',
   },
   openGraph: {
     title: 'Lets Fly - Air Tickets & Visa Processing',
     description: 'Your trusted travel partner in Bangladesh',
     type: 'website',
-    images: ['/images/logo.png'],
+    images: ['/images/favicon.png'],
   },
 }
 
