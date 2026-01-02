@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   keywords: 'air tickets, visa processing, travel agency, EMI facilities, Hajj, Umrah, Bangladesh, Dinajpur',
   authors: [{ name: 'mdobns', url: 'https://github.com/mdobns' }],
   icons: {
-    icon: '/images/logo.png',
-    shortcut: '/images/logo.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
     apple: '/images/logo.png',
   },
   openGraph: {
@@ -41,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={inter.className}>
