@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image'
 import Link from 'next/link'
 import EMICalculator from '@/components/EMICalculator'
@@ -231,6 +232,7 @@ export default function Home() {
           >
             📝 Send Us a Message
           </Link>
+        </div>
       </section>
       {/* Donate Section */}
 <section className="bg-white rounded-xl mx-4 sm:mx-auto max-w-5xl my-8 shadow-lg px-6 py-10">
