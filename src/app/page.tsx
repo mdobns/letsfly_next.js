@@ -3,6 +3,7 @@ import Link from 'next/link'
 import EMICalculator from '@/components/EMICalculator'
 import BankList from '@/components/BankList'
 import BankDetails from '@/components/BankDetails'
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -230,8 +231,28 @@ export default function Home() {
           >
             📝 Send Us a Message
           </Link>
-        </div>
       </section>
+      {/* Donate Section */}
+<section className="bg-white rounded-xl mx-4 sm:mx-auto max-w-5xl my-8 shadow-lg px-6 py-10">
+  <h2 className="text-3xl font-semibold text-center mb-4">
+    Support Our Mission
+  </h2>
+
+  <p className="text-center text-gray-600 mb-8">
+    Your donation helps us continue serving our community. Thank you for your support!
+  </p>
+
+  <div className="flex justify-center">
+    <div id="alora-widget-container" />
+  </div>
+
+  <Script
+    src="https://widget.staging.aloragiving.com/embed.js"
+    strategy="afterInteractive"
+    data-widget-id="abfc0da4-e6ad-4330-8793-181fec14c17f"
+    data-api-base-url="https://api.staging.aloragiving.com"
+  />
+</section>
     </>
   )
 }
